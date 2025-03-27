@@ -21,7 +21,6 @@ header {
 
 .search {
     margin: auto;
-    align-items: center;
 }
 
 .sidebar {
@@ -34,6 +33,18 @@ header {
 
 .sidebar ul {
     list-style: none;
+    align-items: start;
+}
+
+.active{
+    background-color: #969696;
+    border-radius: 5px;
+}
+
+.active:hover{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 11px;
 }
 
 .content{
@@ -58,10 +69,31 @@ header {
     grid-area: c;
     margin: 10px;
     border: 2px solid #969696;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    padding: 2px;
 }
 
 .profile img{
-    width: 20px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.channel-name{
+    font-size: 13px;
+    font-weight: 600;
+    color: #969696;
 }
 
 footer {

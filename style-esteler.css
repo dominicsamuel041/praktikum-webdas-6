@@ -1,0 +1,47 @@
+header{
+    background-color: #fef5f0;
+    display: flex;
+    flex-direction: row;
+}
+.icon-img{
+    width: 50%;
+    height: auto;
+}
+
+.navlist{
+    list-style: none;
+    color: chocolate;
+}
+
+.front{
+    background-image: url("img/es-teler.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.isi{
+    margin: auto;
+    color: white;
+    vertical-align: middle;
+}
+
+thead {
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+footer{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    background-color: chocolate;
+    padding: 30px;
+    color: white;
+    justify-content: space-around;
+}
